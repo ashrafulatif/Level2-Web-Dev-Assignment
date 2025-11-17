@@ -40,7 +40,9 @@ type RatingType = {
 };
 
 const filterByRating = (input: RatingType[]): RatingType[] => {
-  const filterRatings = input.filter((value) => value.rating >= 4);
+  const filterRatings = input.filter(
+    (value) => value.rating >= 4 && value.rating <= 5
+  );
   return filterRatings;
 };
 
