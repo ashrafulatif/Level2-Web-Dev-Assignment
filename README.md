@@ -1,6 +1,6 @@
 # Blog Post
 
-### 1. What are some differences between interfaces and types in TypeScript?
+## 1. What are some differences between interfaces and types in TypeScript?
 
 টাইপস্ক্রিপ্টে আমরা প্রায়ই Interface এবং Type Alias ব্যবহার করি। প্রথম নজরে মনে হতে পারে দুইটি টপিক একই জিনিস, কারণ দুটোই অবজেক্টের কাঠামো বা টাইপ নির্ধারণে ব্যবহার করা হয়। কিন্তু এই দুটির মধ্যে কিছু গুরুত্বপূর্ণ পার্থক্য আছে নিম্নে তাই আলোচনা করা হলঃ
 
@@ -58,7 +58,7 @@ const user: User = {
 
 <hr>
 
-### 3. Explain the difference between any, unknown, and never types in TypeScript.
+## 3. Explain the difference between any, unknown, and never types in TypeScript.
 
 আমরা জানি জাভাস্ক্রিপ্টের ডেটা টাইপ দুই ধরনের হয়ে থাকে Primitive টাইপ এবং Non-Primitive টাইপ। জাভাস্ক্রিপ্টে এই Primitive টাইপ এর মধ্যে মূলত ৭ ধরনের টাইপ হয় যেমন number, string, boolean, null, undefined, bigint, symbol।
 
@@ -66,10 +66,7 @@ const user: User = {
 
 এই ব্লগে আমরা টাইপস্ক্রিপ্টের এই তিনটি গুরুত্বপূর্ণ টাইপ any, unknown, এবং never সহ তাদের ব্যবহার, পার্থক্য এবং বাস্তব উদাহরণ দেখব।
 
-Any Type:
-
----
-
+## Any Type:
 সব ধরনের ভ্যালু নিতে পারে, তার মানে টাইপ যেকোনো কিছুই হতে পারে। টাইপস্ক্রিপ্ট কোনো ধরনের ভুল বা সতর্কবার্তা দেখায় না যেটি একদমই নিরাপদ না। সুতরাং any টাইপস্ক্রিপ্টের টাইপ সেফটি পুরোপুরি সরিয়ে দেয়।
 
 উদাহরণ:
